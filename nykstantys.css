@@ -1,0 +1,83 @@
+html {
+  border: 10px solid green;
+}
+
+header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+h2,
+h3,
+a {
+  color: rgb(176, 176, 176);
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  display: flex;
+  display: inline;
+  padding: 0px 5px;
+}
+
+header img {
+  width: 100px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h2 {
+  margin: 40px 0px;
+  text-align: center;
+}
+
+main img {
+  width: 225px;
+  height: 225px;
+  border: 1px solid silver;
+}
+
+article {
+  width: 15%;
+  align-items: center;
+}
+
+article p {
+  width: 225px;
+}
+.augaliukai {
+  margin: 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 400px) {
+  article {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  h4 {
+    margin-bottom: 5px;
+    display: none;
+  }
+}
+
+@media (min-width: 400px) {
+  h4 {
+    margin-bottom: 5px;
+  }
+}
